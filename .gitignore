@@ -1,0 +1,36 @@
+# ---- build artifacts ----
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CTestTestfile.cmake
+DartConfiguration.tcl
+Makefile
+Testing/
+install_manifest.txt
+compile_commands.json
+
+# ---- binaries / libs ----
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# ---- temp / logs ----
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ---- IDE / tooling ----
+.vscode/
+.idea/
+*.code-workspace
+.clangd/
+.cache/
